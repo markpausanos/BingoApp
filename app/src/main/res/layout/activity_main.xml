@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#de0607"
+    tools:context=".MainActivity">
+
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="389dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/bingo1"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bingobox"
+            android:fontFamily="@font/changa_one"
+            android:gravity="center"
+            android:text="@string/B"
+            android:textColor="@color/white"
+            android:textSize="70sp" />
+
+        <TextView
+            android:id="@+id/bingo2"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bingobox"
+            android:fontFamily="@font/changa_one"
+            android:gravity="center"
+            android:text="@string/I"
+            android:textColor="@color/white"
+            android:textSize="70sp" />
+
+        <TextView
+            android:id="@+id/bingo3"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bingobox"
+            android:fontFamily="@font/changa_one"
+            android:gravity="center"
+            android:text="@string/N"
+            android:textColor="@color/white"
+            android:textSize="70sp" />
+
+        <TextView
+            android:id="@+id/bingo4"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bingobox"
+            android:fontFamily="@font/changa_one"
+            android:gravity="center"
+            android:text="@string/G"
+            android:textColor="@color/white"
+            android:textSize="70sp" />
+
+        <TextView
+            android:id="@+id/bingo5"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bingobox"
+            android:fontFamily="@font/changa_one"
+            android:gravity="center"
+            android:text="@string/O"
+            android:textColor="@color/white"
+            android:textSize="70sp" />
+    </TableRow>
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="388dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ToggleButton
+                android:id="@+id/buttonb1"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/changa_one"
+                android:textColor="#2c2c2c"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="30sp" />
+
+            <ToggleButton
+                android:id="@+id/buttoni1"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/changa_one"
+                android:textColor="#2c2c2c"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="30sp" />
+
+            <ToggleButton
+                android:id="@+id/buttonn1"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/changa_one"
+                android:textColor="#2c2c2c"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="30sp" />
+
+            <ToggleButton
+                android:id="@+id/buttong1"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/changa_one"
+                android:textColor="#2c2c2c"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="30sp" />
+
+            <ToggleButton
+                android:id="@+id/buttono1"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/changa_one"
+                android:textColor="#2c2c2c"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ToggleButton
+                android:id="@+id/buttonb2"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/changa_one"
+                android:textColor="#2c2c2c"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="30sp" />
+
+            <ToggleButton
+                android:id="@+id/buttoni2"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/changa_one"
+                android:textColor="#2c2c2c"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="30sp" />
+
+            <ToggleButton
+                android:id="@+id/buttonn2"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/changa_one"
+                android:textColor="#2c2c2c"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="30sp" />
+
+            <ToggleButton
+                android:id="@+id/buttong2"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/changa_one"
+                android:textColor="#2c2c2c"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="30sp" />
+
+            <ToggleButton
+                android:id="@+id/buttono2"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/changa_one"
+                android:textColor="#2c2c2c"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ToggleButton
+                android:id="@+id/buttonb3"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/changa_one"
+                android:textColor="#2c2c2c"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="30sp" />
+
+            <ToggleButton
+                android:id="@+id/buttoni3"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/changa_one"
+                android:textColor="#2c2c2c"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="30sp" />
+
+            <ToggleButton
+                android:id="@+id/buttonn3"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/changa_one"
+                android:textColor="#2c2c2c"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="30sp" />
+
+            <ToggleButton
+                android:id="@+id/buttong3"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/changa_one"
+                android:textColor="#2c2c2c"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="30sp" />
+
+            <ToggleButton
+                android:id="@+id/buttono3"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/changa_one"
+                android:textColor="#2c2c2c"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ToggleButton
+                android:id="@+id/buttonb4"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/changa_one"
+                android:textColor="#2c2c2c"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="30sp" />
+
+            <ToggleButton
+                android:id="@+id/buttoni4"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/changa_one"
+                android:textColor="#2c2c2c"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="30sp" />
+
+            <ToggleButton
+                android:id="@+id/buttonn4"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/changa_one"
+                android:textColor="#2c2c2c"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="30sp" />
+
+            <ToggleButton
+                android:id="@+id/buttong4"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/changa_one"
+                android:textColor="#2c2c2c"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="30sp" />
+
+            <ToggleButton
+                android:id="@+id/buttono4"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/changa_one"
+                android:textColor="#2c2c2c"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ToggleButton
+                android:id="@+id/buttonb5"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/changa_one"
+                android:textColor="#2c2c2c"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="30sp" />
+
+            <ToggleButton
+                android:id="@+id/buttoni5"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/changa_one"
+                android:textColor="#2c2c2c"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="30sp" />
+
+            <ToggleButton
+                android:id="@+id/buttonn5"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/changa_one"
+                android:textColor="#2c2c2c"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="30sp" />
+
+            <ToggleButton
+                android:id="@+id/buttong5"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/changa_one"
+                android:textColor="#2c2c2c"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="30sp" />
+
+            <ToggleButton
+                android:id="@+id/buttono5"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/changa_one"
+                android:textColor="#2c2c2c"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="30sp" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="80dp"
+        android:layout_height="52dp"
+        android:background="#ffbf17"
+        android:fontFamily="@font/changa_one"
+        android:gravity="center"
+        android:onClick="Checker"
+        android:text="@string/Check"
+        android:textColor="#2c2c2c"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/code"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="@+id/code"
+        app:layout_constraintTop_toTopOf="@+id/tokenPut"
+        app:layout_constraintVertical_bias="0.416" />
+
+    <Button
+        android:id="@+id/code"
+        android:layout_width="80dp"
+        android:layout_height="52dp"
+        android:background="#ffbf17"
+        android:fontFamily="@font/changa_one"
+        android:gravity="center"
+        android:onClick="connectRoom"
+        android:text="@string/Enter"
+        android:textColor="#2c2c2c"
+
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.784"
+        app:layout_constraintStart_toEndOf="@+id/gameCode"
+        app:layout_constraintTop_toTopOf="@+id/gameCode"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:background="#f0f0e6"
+        android:gravity="center_vertical"
+        android:id="@+id/gameCode"
+        android:layout_width="200dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="11dp"
+        android:hint="@string/hintgc"
+        android:textColorHint="#2c2c2c"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:textColor="#2c2c2c"
+        android:textSize="15sp"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <TextView
+        android:id="@+id/state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/changa_one"
+        android:gravity="center"
+        android:textColor="#ffbf17"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableRow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tokenPut"
+        android:layout_width="200dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="36dp"
+        android:background="#f0f0e6"
+        android:gravity="center_vertical"
+        android:hint="@string/hinttoken"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:textColor="#2c2c2c"
+        android:textColorHint="#2c2c2c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/gameCode"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="@+id/gameCode"
+        app:layout_constraintTop_toBottomOf="@+id/gameCode"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

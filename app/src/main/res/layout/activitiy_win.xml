@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#de0607"
+    tools:context=".WinActivity">
+
+    <TextView
+        android:id="@+id/o2"
+        android:layout_width="64dp"
+        android:layout_height="89dp"
+        android:fontFamily="@font/changa_one"
+        android:gravity="center"
+        android:text="@string/O"
+        android:textColor="@color/white"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/g2" />
+
+    <TextView
+        android:id="@+id/g2"
+        android:layout_width="64dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/changa_one"
+        android:gravity="center"
+        android:text="@string/G"
+        android:textColor="@color/white"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/n2" />
+
+    <TextView
+        android:id="@+id/n2"
+        android:layout_width="64dp"
+        android:layout_height="89dp"
+        android:fontFamily="@font/changa_one"
+        android:gravity="center"
+        android:text="@string/N"
+        android:textColor="@color/white"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/i2" />
+
+    <TextView
+        android:id="@+id/i2"
+        android:layout_width="64dp"
+        android:layout_height="89dp"
+        android:fontFamily="@font/changa_one"
+        android:gravity="center"
+        android:text="@string/I"
+        android:textColor="@color/white"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b" />
+
+    <TextView
+        android:id="@+id/b"
+        android:layout_width="64dp"
+        android:layout_height="89dp"
+        android:fontFamily="@font/changa_one"
+        android:gravity="center"
+        android:text="@string/B"
+        android:textColor="@color/white"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/congrats" />
+
+    <TextView
+        android:id="@+id/congrats"
+        android:layout_width="wrap_content"
+        android:layout_height="87dp"
+        android:fontFamily="@font/changa_one"
+        android:text="@string/congrats"
+        android:textColor="#ffbf17"
+        android:textSize="35sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096" />
+
+    <Button
+        android:id="@+id/newgame"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_marginTop="32dp"
+        android:background="#ffbf17"
+        android:fontFamily="@font/changa_one"
+        android:gravity="center"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/new_game"
+        android:textColor="#2c2c2c"
+        android:textSize="30sp"
+        android:onClick="newGame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/o2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

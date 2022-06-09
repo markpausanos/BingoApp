@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BingoApp</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="B">B</string>
+    <string name="I">I</string>
+    <string name="N">N</string>
+    <string name="G">G</string>
+    <string name="O">O</string>
+    <string name="Check">CHECK</string>
+    <string name="Enter">ENTER</string>
+    <string name="hintgc">Enter game room code</string>
+    <string name="hinttoken">Token is placed here</string>
+    <string name="congrats">CONGRATULATIONS!</string>
+    <string name="new_game">NEW GAME</string>
+</resources>
